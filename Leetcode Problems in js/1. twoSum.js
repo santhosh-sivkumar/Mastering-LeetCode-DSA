@@ -17,5 +17,18 @@ function twoSum(array, target) {
     }
     map.set(array[i], i);
   }
+  return "Not available";
+}
+// OR
+function twoSum(array, target) {
+  const map = {};
+  for (let i = 0; i < array.length; i++) {
+    let complement = target - array[i];
+    if (complement in map) {
+      return [map[complement], i];
+    }
+    map[array[i]] = i;
+  }
+  return "Not available";
 }
 console.log(twoSum([1, 2, 3], 4));

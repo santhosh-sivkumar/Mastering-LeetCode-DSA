@@ -104,7 +104,15 @@ const chunkArray = (array, size) => {
 };
 console.log(chunkArray([1, 2, 4, 5, 9.5, 6, 4.7, 0], 7));
 
-// 7) Two Sum:-------------
+// 7) Factorial Array:-------------
+function factorial(n) {
+  let res = 1;
+  for (let i = 1; i <= n; i++) res *= i;
+  return res;
+}
+console.log(factorial(5));
+
+// 8) Two Sum:-------------
 // solution 1)
 function twoSum(array, target) {
   for (let i = 0; i < array.length; i++) {
