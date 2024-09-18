@@ -91,17 +91,15 @@ let arr_ = [1, 2, 3, 4, 5, 6, 7, 8, 9, 21];
 
 // console.log(capitalize("santhosh sivakumar"));
 
-// function chunkArray(arr, size) {
-//   const chunked = [];
-//   let index = 0;
-//   while (index < arr.length) {
-//     let chunk = arr.slice(index, index + size);
-//     chunked.push(chunk);
-//     index += size;
-//   }
-//   return chunked;
-// }
+function chunkArray(arr, size) {
+  const chunked = [];
+  let index = 0;
+  while (index < arr.length) {
+    let chunk = arr.slice(index, index + size);
+    chunked.push(chunk);
+    index += size;
+  }
+  return chunked;
+}
 
-// console.log(chunkArray(arr_, 2));
-
-//
+console.log(chunkArray(arr_, 2));
