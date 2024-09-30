@@ -32,3 +32,7 @@ function addTwoNumbers(l1, l2) {
   }
   return dummy.next;
 }
+
+// Time & Space Complexity:
+// Time Complexity: O(max(m, n)), where m and n are the lengths of the input lists.
+// Space Complexity: O(max(m, n)) due to the result linked list size.
