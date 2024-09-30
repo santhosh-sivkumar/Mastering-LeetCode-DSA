@@ -17,9 +17,10 @@ function twoSum(array, target) {
     }
     map.set(array[i], i);
   }
-  return "Not available";
 }
-// OR
+
+//------------------------------- OR ------------------------------------
+
 function twoSum(array, target) {
   const map = {};
   for (let i = 0; i < array.length; i++) {
@@ -29,6 +30,5 @@ function twoSum(array, target) {
     }
     map[array[i]] = i;
   }
-  return "Not available";
 }
 console.log(twoSum([1, 2, 3], 4));
