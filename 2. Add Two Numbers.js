@@ -17,6 +17,7 @@
 //  Input: l1 = [1,2,3], l2 = []
 // Output: [1,2,3]
 //  Input: l1 = [], l2
+import { ListNode } from "./src/SourceForLinkedList.js";
 
 function addTwoNumbers(l1, l2) {
   let dummy = new ListNode(0),
@@ -24,7 +25,7 @@ function addTwoNumbers(l1, l2) {
     current = dummy;
 
   while (l1 || l2 || carry) {
-    let sum = (l1?.val || 0) + (l2?.val || 0) + carry;
+    let sum = (l1?.value || 0) + (l2?.value || 0) + carry;
     carry = Math.floor(sum / 10);
     current.next = new ListNode(sum % 10);
     current = current.next;

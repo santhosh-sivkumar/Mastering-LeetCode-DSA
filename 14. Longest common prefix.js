@@ -1,5 +1,18 @@
 // 14. Longest common prefix
+/* Write a function to find the longest common prefix string amongst an array of strings.
+// If there is no common prefix, return an empty string "".
 
+Example 1:
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+Example 2:
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+*/
+
+// Approach
 // #To handle the edge case, return empty string is the array length is 0.
 // #Sor the array. by doing this the largest and the smallest strings are at the two ends of the array.
 // #Create an variable to hold the first string from the sorted array.
