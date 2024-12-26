@@ -37,6 +37,10 @@ function threeSumClosest(nums) {
   }
   return closest;
 }
+// Rough explanation:
+// Pointer's places in initial state:
+//  1st ptr(i)   2nd ptr(left)                       3rd ptr(right)
+// [   -1,           -2,       -3,4, 5, 6, 7, 8, 9,       10]
 
 // Example usage
 const nums = [-1, 2, 1, -4];

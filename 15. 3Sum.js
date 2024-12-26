@@ -67,5 +67,9 @@ function threeSum(nums) {
 
   return result;
 }
+// Rough explanation:
+// Pointer's places in initial state:
+//  1st ptr(i)   2nd ptr(left)                     3rd ptr(right)
+// [   -1,           -2,      -3,4, 5, 6, 7, 8, 9,       10]
 
 console.log(threeSum([-1, 0, 1, 2, -1, -4]));
