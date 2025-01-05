@@ -17,7 +17,7 @@
 //  Input: l1 = [1,2,3], l2 = []
 // Output: [1,2,3]
 //  Input: l1 = [], l2
-import { ListNode } from "./src/SourceForLinkedList.js";
+import { ListNode } from "./src/ListNodeClass.js";
 
 function addTwoNumbers(l1, l2) {
   let dummy = new ListNode(0),

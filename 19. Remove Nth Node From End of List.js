@@ -13,7 +13,7 @@ Example 3:
 Input: head = [1,2], n = 1
 Output: [1]
 */
-import { ListNode } from "./src/SourceForLinkedList.js";
+import { ListNode } from "./src/ListNodeClass.js";
 
 function removeNthFromEnd(head, n) {
   // Create a dummy node

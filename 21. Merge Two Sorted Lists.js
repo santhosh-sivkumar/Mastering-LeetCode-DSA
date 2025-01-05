@@ -19,7 +19,7 @@ Output: [0]
 
 */
 
-import { ListNode } from "./src/SourceForLinkedList.js";
+import { ListNode } from "./src/ListNodeClass.js";
 
 var mergeTwoLists = function (list1, list2) {
   let dummy = new ListNode(-1);
