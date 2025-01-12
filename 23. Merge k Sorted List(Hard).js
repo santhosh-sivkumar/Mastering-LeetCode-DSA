@@ -46,6 +46,7 @@ function convertToList(array) {
   return dummy.next;
 }
 
+// Rough explanation:
 //prev  1st   2nd    3rd     4th
 // 0     1     2      3       4
 
